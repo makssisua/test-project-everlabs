@@ -7,6 +7,7 @@ export const SearchBar = ({ setAlbum, setError, setIsLoading } ) => {
 
   const searchAlbum = async () => {
     setIsLoading(true)
+
     if (inputValue !== '') {
       const newAlbum = await getAlbum(inputValue)
 

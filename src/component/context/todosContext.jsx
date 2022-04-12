@@ -28,8 +28,20 @@ export const TodosListProvider = (props) => {
     ])
   };
 
+  const changeTitle = (id , newTitle) => {
+    const todo = todos.find(el => el.id === id)
+
+    setTodos([
+      ...todos.filter(todo => todo.id !== id),
+      {...todo, title: newTitle}
+    ])
+  };
+
+  const value = { todos, addTodos, deleteTodos,
+    changeStatus, changeTitle }
+
   return (
-    <TodosContext.Provider value={{ todos, addTodos, deleteTodos, changeStatus }}>
+    <TodosContext.Provider value={value}>
       {props.children}
     </TodosContext.Provider>
   );
