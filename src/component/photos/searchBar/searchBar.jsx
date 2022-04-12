@@ -29,10 +29,10 @@ export const SearchBar = ({ setAlbum, setError, setIsLoading } ) => {
           className="form-control"
           placeholder="Номер альбому(1-100)"
           aria-describedby="button-addon2"
-          onChange={(event) => (
-            setInputValue(event.target.value),
-            setError(false)
-          )}
+          onChange={(event) => {
+            setError(false);
+            setInputValue(event.target.value);
+          }}
         />
         <button
           className="btn btn-primary"

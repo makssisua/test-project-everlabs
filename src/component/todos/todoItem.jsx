@@ -20,8 +20,9 @@ export const TodoItem = ({ todo }) => {
 
         <Link className='text-decoration-none p-3' to={`${todo.id}`}>
           <span className={todo.status ? "text-decoration-line-through" : ""}>
-              {todo.title}
-            </span>
+            {todo.title}
+            />
+          </span>
         </Link>
 
         <button
