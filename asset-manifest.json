@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/test-project-everlabs/static/css/main.7e2a04a8.css",
-    "main.js": "/test-project-everlabs/static/js/main.0596712c.js",
+    "main.js": "/test-project-everlabs/static/js/main.48020c29.js",
     "index.html": "/test-project-everlabs/index.html",
     "main.7e2a04a8.css.map": "/test-project-everlabs/static/css/main.7e2a04a8.css.map",
-    "main.0596712c.js.map": "/test-project-everlabs/static/js/main.0596712c.js.map"
+    "main.48020c29.js.map": "/test-project-everlabs/static/js/main.48020c29.js.map"
   },
   "entrypoints": [
     "static/css/main.7e2a04a8.css",
-    "static/js/main.0596712c.js"
+    "static/js/main.48020c29.js"
   ]
 }
