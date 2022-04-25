@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { getAlbum } from "../../api/albumApi";
+import { getAlbum } from "../../../api/albumApi";
 
 export const SearchBar = ({ setAlbum, setError, setIsLoading } ) => {
   const [inputValue, setInputValue] = useState('')

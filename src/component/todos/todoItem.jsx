@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { TodosContext } from "../context/todosContext";
+import { TodosContext } from "../../context/todosContext";
 import { Link } from "react-router-dom";
 import  { ChangeTodo } from "./changeTodo/changeTodo";
 

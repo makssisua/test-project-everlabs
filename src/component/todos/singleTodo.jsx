@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
-import { TodosContext } from "../context/todosContext";
+import { TodosContext } from "../../context/todosContext";
 
 export const SingleTodo = () => {
   const { id } = useParams();
