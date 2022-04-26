@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { SearchBar } from "./searchBar/searchBar";
-import { AlbumItem } from "./albumItem";
-import "./searchBar/searchBar.css"
-import "../../normalize.css"
+import { SearchBar } from "../SearchBar/SearchBar";
+import { PhotoItem } from "../PhotoItam/PhotoItem";
+import "../SearchBar/SearchBar.css"
+import "../../../normalize.css"
 
 export const PhotoAlbum = () => {
   const [album, setAlbum] = useState(null)
@@ -29,7 +29,7 @@ export const PhotoAlbum = () => {
         ? (
             <div className="d-flex flex-wrap justify-content-center pb-5 gap-2">
               {album?.map(photo => (
-                <AlbumItem
+                <PhotoItem
                   key={photo.id}
                   photo={photo}
                 />

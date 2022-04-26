@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { Modal } from 'react-bootstrap';
 import { TodosContext } from "../../../context/todosContext";
 import edit from "./edit.png"
-import "./changeTodo.css"
+import "./ChangeTodo.css"
 
 export const ChangeTodo = ({ todo }) => {
   const [show, setShow] = useState(false);

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
-import { TodosContext } from "../../context/todosContext";
-import { AddTodos } from './addTodos/addTodos'
-import { TodoItem } from "./todoItem";
+import { TodosContext } from "../../../context/todosContext";
+import { AddTodos } from '../AddTodos/AddTodos'
+import { TodoItem } from "../TodoItem/TodoItem";
 
 export const TodosList = () => {
   const { todos } = useContext(TodosContext);

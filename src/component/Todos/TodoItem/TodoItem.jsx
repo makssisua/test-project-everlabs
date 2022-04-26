@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import { TodosContext } from "../../context/todosContext";
+import { TodosContext } from "../../../context/todosContext";
 import { Link } from "react-router-dom";
-import  { ChangeTodo } from "./changeTodo/changeTodo";
+import  { ChangeTodo } from "../ChangeTodo/ChangeTodo";
 
 export const TodoItem = ({ todo }) => {
   const { deleteTodos, changeStatus } = useContext(TodosContext);

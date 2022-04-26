@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Layout } from "./component/Layout/Layout";
-import { TodosList } from './component/todos/todosList'
-import { PhotoAlbum } from './component/photos/photoAlbum'
-import { SingleTodo } from "./component/todos/singleTodo";
+import { Layout } from "../Layout/Layout";
+import { TodosList } from '../Todos/TodosList/TodosList'
+import { PhotoAlbum } from '../Photos/PhotoAlbum/PhotoAlbum'
+import { SingleTodo } from "../Todos/SingleTodo/SingleTodo";
 
 
 export const App = () => {
