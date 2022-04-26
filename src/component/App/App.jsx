@@ -11,6 +11,7 @@ export const App = () => {
       <div className="App">
         <Routes>
           <Route path="/" element={<Layout />}>
+            <Route path="/" element={<TodosList />} />
             <Route path="/todos" element={<TodosList />} />
             <Route path="/todos/:id" element={<SingleTodo />} />
             <Route path="/photos" element={<PhotoAlbum />} />
